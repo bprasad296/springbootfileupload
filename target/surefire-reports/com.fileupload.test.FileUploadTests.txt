@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.fileupload.test.FileUploadTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.975 sec <<< FAILURE! - in com.fileupload.test.FileUploadTests
+uploadFile(com.fileupload.test.FileUploadTests)  Time elapsed: 0.974 sec  <<< ERROR!
+java.lang.ClassCastException: org.springframework.mock.web.MockMultipartFile cannot be cast to org.springframework.test.web.servlet.RequestBuilder
+	at com.fileupload.test.FileUploadTests.uploadFile(FileUploadTests.java:36)
+

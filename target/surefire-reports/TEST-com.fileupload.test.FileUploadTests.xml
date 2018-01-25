@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fileupload.test.FileUploadTests" time="0.974" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\bin"/>
+    <property name="java.vm.version" value="25.71-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\workspace\practice\springbootfileupload"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\workspace\practice\springbootfileupload"/>
+    <property name="java.runtime.version" value="1.8.0_71-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\PRASAD~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\workspace\practice\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2512332913359238897.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_71\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_71/bin/server;C:/Program Files/Java/jre1.8.0_71/bin;C:/Program Files/Java/jre1.8.0_71/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Oracle\client11g32bit\product\11.2.0\client_1\bin\;C:\OIX\OutsideX\Filters;C:\Program Files (x86)\RSA SecurID Token Common;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Program Files (x86)\cvsnt\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Informatica\9.0.1\clients\tools\datadirect;C:\Informatica\9.0.1\clients\DeveloperClient\bin;C:\windows\SysWOW64\;C:\windows\SysWOW64\Wbem;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn;C:\Program Files (x86)\AdminStudio\9.5\Common;C:\Program Files (x86)\Python27\;C:\Program Files (x86)\Python27\scripts;C:\Program Files\Dell\Dell Data Protection\Encryption\;C:\Program Files (x86)\File Viewer Lite\lib\magick;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files (x86)\Box\Box Edit\;C:\Program Files\Java\jdk1.8.0_71\bin;C:\apache-ant-1.8.4\bin;C:\softwares\apache-tomcat-9.0.0.M10\bin;C:\softwares\apache-maven-3.1.0\bin;$BEA_HOME\common\nodemanager;C:\Oracle\client11g32bit\product\11.2.0\client_1\bin;C:\Users\prasad_bachala\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\prasad_bachala\AppData\Local\Programs\Fiddler;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jre1.8.0_71;;C:\softwares\eclipseneon\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\prasad_bachala"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="prasad_bachala"/>
+    <property name="java.class.path" value="/C:/softwares/eclipseneon/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_71\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_71"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_71\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\workspace\practice\springbootfileupload\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="uploadFile" classname="com.fileupload.test.FileUploadTests" time="0.974">
+    <error message="org.springframework.mock.web.MockMultipartFile cannot be cast to org.springframework.test.web.servlet.RequestBuilder" type="java.lang.ClassCastException">java.lang.ClassCastException: org.springframework.mock.web.MockMultipartFile cannot be cast to org.springframework.test.web.servlet.RequestBuilder
+	at com.fileupload.test.FileUploadTests.uploadFile(FileUploadTests.java:36)
+</error>
+    <system-out><![CDATA[13:58:54,605 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+13:58:54,605 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+13:58:54,605 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/workspace/practice/springbootfileupload/target/classes/logback.xml]
+13:58:54,667 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+13:58:54,683 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+13:58:54,689 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+13:58:54,739 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+13:58:54,739 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+13:58:54,739 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+13:58:54,741 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework.web] to ERROR
+13:58:54,741 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.springframework.web] to false
+13:58:54,741 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.springframework.web]
+13:58:54,741 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.mkyong] to DEBUG
+13:58:54,741 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.mkyong] to false
+13:58:54,741 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[com.mkyong]
+13:58:54,741 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to ERROR
+13:58:54,741 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+13:58:54,741 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+13:58:54,742 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@53b32d7 - Registering current configuration as safe fallback point
+
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,6 @@
+com\fileupload\controller\IndexController.class
+com\fileupload\controller\RestUploadController.class
+com\fileupload\model\UploadModel.class
+com\fileupload\SpringBootWebApplication.class
+com\fileupload\exception\CustomError.class
+com\fileupload\exception\RestGlobalExceptionHandler.class
